@@ -31,7 +31,7 @@ npm start
 ## 初始化和设置检测
 
 ```
-import { initVueInstanceProps, detectPortalInstances } from '@filez/portal'
+import { initVueInstanceProps, detectPortalInstances } from 'portal-vue2'
 ...
 // 检测portal未调用resolve/reject导致未销毁实例造成的泄露 参数是一个对象，非对象会报错
 if (process.env.NODE_ENV === 'development') {
@@ -99,7 +99,7 @@ initVueInstanceProps({
  * 将组件调用函数化
  */
 import temp from './template.vue'
-import { wrap } from '@filez/portal'
+import { wrap } from 'portal-vue2'
 /**
  * 提供给使用者的接口
  * @param {Object} template 模板import进来的Vue模板对象
