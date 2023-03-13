@@ -8,7 +8,7 @@ export default {
   external: ['vue'],
   output: [
     {
-      file: 'dist/portal.esm.js',
+      file: 'dist/portal-vue2.esm.js',
       format: 'es',
       sourcemap: true,
     },

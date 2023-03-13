@@ -2,7 +2,7 @@
  * 将组件调用函数化
  */
 import temp from './template.vue'
-import { wrap } from '../../dist/portal.esm'
+import { wrap } from '../../dist/portal-vue2.esm'
 /**
  * 提供给使用者的接口
  * @param temp组件模板
