@@ -8,8 +8,4 @@
 .svn
 
 node_modules/
-
-/dist
-!/dist/src
-build/config.js
 yarn.lock
